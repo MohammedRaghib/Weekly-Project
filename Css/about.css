@@ -1,49 +1,43 @@
-body{
-    padding-bottom:0px ;
-    background-color: 	#bde5ac;
-}
 #Header{
-    background-color:#007bff;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100px;
-    width:1365px;
-    position:relative;
-    bottom: 21px;
-    right: 7px;
+    color:greenyellow;
+    background-color: #181C14;
+    text-align: center;
+    border: 10px solid #ECDFCC;
+    border-radius: 10px;
 }
-#Header h1{
-    padding-left: 600px;
-    padding-top: 30px;
-    }
 #Nav{
-    background-color:#4caf50;
-    width:1365px;
-    height: 10px;
-    position: relative;
-    bottom: 21px;
-    right: 7px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 10px;
+    background-color: #697565;
+    margin-left: 575px;
+    width: fit-content;
+    padding: 20px;
+    border:  5px dashed #ECDFCC;
 }
-#Nav a{
-    position: relative;
-    left: 585px;
-}
-#Nav #Home{
-    padding-right: 10px;
+#Contact #Home{
+    text-decoration: none;
+    color: darkred;
 }
 #Main{
-    background-color:#565656;
-    width:1345px;
-    height: 420px;
-    position:relative;
-    right: 7px;
-    bottom: 39px;
-    margin-bottom: 0px;
-    padding-left: 20px;
-    font-size:large;
+    display: grid;
+    grid-template-columns: auto 500px;
+    gap: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #ff0000, rgb(0, 255, 42));
+    border: 5px solid #ECDFCC;
+    border-radius: 50px;
 }
-#Main ul{
-    list-style-type: square;
+.info-main{
+    padding-left: 100px;
+    font-size: xx-large;
+    color: gold;
+}
+.image{
+    padding-top: 100px;
+}
+.Img{
+    border-radius: 30px;
+    border: 2px solid darksalmon;
 }

@@ -1,47 +1,55 @@
-body{
-    padding-bottom:0px ;
-    background-color: 	#bde5ac;
-}
 #Header{
-    background-color:#007bff;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100px;
-    width:1365px;
-    position:relative;
-    bottom: 21px;
-    right: 7px;
+    color:greenyellow;
+    background-color: #181C14;
+    text-align: center;
+    border: 10px solid #ECDFCC;
+    border-radius: 10px;
 }
-#Header h1{
-    padding-left: 550px;
-    padding-top: 30px;
-    }
 #Nav{
-    background-color:#4caf50;
-    width:1365px;
-    height: 10px;
-    position: relative;
-    bottom: 21px;
-    right: 7px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 10px;
+    background-color: #697565;
+    margin-left: 575px;
+    width: fit-content;
+    padding: 20px;
+    border:  5px dashed #ECDFCC;
 }
-#Nav a{
-    position: relative;
-    left: 585px;
-}
-#Nav #About{
-    padding-right: 10px;
+#about #contact{
+    text-decoration:none;
+    color: gold;
 }
 #Main{
-    background-color:#565656;
-    width:840px;
-    height: 303px;
-    position:relative;
-    right: 7px;
-    bottom: 39px;
-    margin-bottom: 0px;
-    padding-top: 125px;
-    padding-left: 525px;
-    font-size:large;
+    display: grid;
+    grid-template-columns: auto 400px;
+    gap: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #6A9C89, yellow);
+    border: 5px solid #ECDFCC;
+    border-radius: 50px;
+}
+.para{
+    color: darkblue;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 50px;
+    padding-right: 100px;
+    text-align: right;
+}
+.image{
+    padding-right: 100px;
+    border-radius: 20%;
+}
+.footer{
+    background-color: #6A9C89;
+    border: 7px solid #ECDFCC;
+}
+.email{
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+.par{
+    padding-left: 10px;
+    color: blue;
 }
