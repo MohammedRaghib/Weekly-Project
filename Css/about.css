@@ -1,6 +1,6 @@
 #Header{
     color:greenyellow;
-    background-color: #181C14;
+    background-color: rgb(0, 40, 66);
     text-align: center;
     border: 10px solid #ECDFCC;
     border-radius: 10px;
@@ -10,7 +10,7 @@
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 10px;
-    background-color: #697565;
+    background-color: darkred;
     margin-left: 575px;
     width: fit-content;
     padding: 20px;
@@ -18,21 +18,21 @@
 }
 #Contact #Home{
     text-decoration: none;
-    color: darkred;
+    color: rgb(0, 40, 66);
 }
 #Main{
     display: grid;
     grid-template-columns: auto 500px;
     gap: 10px;
     padding: 20px;
-    background-image: linear-gradient(to bottom right, #ff0000, rgb(0, 255, 42));
+    background-image: linear-gradient(to bottom right, darkred, rgb(0, 40, 66));
     border: 5px solid #ECDFCC;
     border-radius: 50px;
 }
 .info-main{
     padding-left: 100px;
     font-size: xx-large;
-    color: gold;
+    color: #ECDFCC;
 }
 .image{
     padding-top: 100px;
