@@ -1,33 +1,109 @@
-#Header{
-    color:greenyellow;
-    background-color: rgb(0, 40, 66);
-    text-align: center;
-    border: 10px solid #ECDFCC;
-    border-radius: 10px;
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
 }
-#Nav{
-    display: grid;
-    grid-template-columns: auto auto;
+
+#Nav {
+    display: flex;
     justify-content: center;
-    gap: 10px;
-    background-color: darkred;
-    margin-left: 575px;
-    width: fit-content;
-    padding: 20px;
-    border:  5px dashed #ECDFCC;
+    align-items: center;
+    gap: 20px;
+    background-color: #000;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
-#Contact #Home{
+
+.link {
     text-decoration: none;
-    color: darkred;
+    color: #e5e5e5;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
-#Main{
+
+.link:hover {
+    color: #ffd700;
+}
+
+#Header {
+    text-align: center;
+    background-color: #14213d;
+    color: #e5e5e5;
+    padding: 30px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#Header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #e5e5e5;
+    height: 70vh;
     padding: 20px;
-    background-image: linear-gradient(to bottom right, darkred, rgb(0, 40, 66));
-    border: 5px solid #ECDFCC;
-    border-radius: 50px;
 }
-.table{
-    padding-left: 485px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+.table {
+    text-align: center;
+    color: #e5e5e5;
+    padding: 40px;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+}
+
+th,
+td {
+    padding: 15px;
+    border: 1px solid #333;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #333;
+    color: #ffd700;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+@media (max-width: 768px) {
+    .link {
+        font-size: 1rem;
+    }
+
+    #Header h1 {
+        font-size: 1.8rem;
+    }
+
+    .table {
+        padding: 20px;
+    }
+
+    table {
+        width: 80%;
+    }
 }
